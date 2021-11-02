@@ -5,5 +5,5 @@ api: [3.0.0]
 version: 1.5
 
 commands:
-  sbui:
+  ismenu:
     description: "Insert the command to check available SkyBlock commands"
