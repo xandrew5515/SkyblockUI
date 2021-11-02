@@ -81,18 +81,18 @@ class main extends PluginBase
 
 			}
 		});
-		$form->settitle("§bSky§1Block §eMenu");
-		$form->setcontent("§6» »eThis is the »6SkyBlock Menu. §eSelect what you want to do next down below. §6More functions cooming soon.");
-		$form->addbutton("§1» §aCreate Island §e[TAP]");
-		$form->addbutton("§1» §dTeleport to your Is §e[TAP]");
-		$form->addbutton("§1» §cLock or Unlock Is §e[TAP]");
-		$form->addbutton("§1» §2Visit an Is §e[TAP]");
-		$form->addbutton("§1» §5Leave Island §e[TAP]");	
-		$form->addbutton("§1» §4Delete Island §e[TAP]");
-		$form->addbutton("§1» §3Kick Player §e[TAP]");
-	        $form->addbutton("§1» §bPromote Player §e[TAP]");
-		$form->addbutton("§1» §6Setspawn §e[TAP]");
-		$form->addbutton("§1» §0Back to Spawn §a[TP]"); 
+		$form->settitle("Galaxy SkyBlock Menu");
+		$form->setcontent("» This is the SkyBlock Menu. Select what you want to do next down below. More functions coming soon.");
+		$form->addbutton("» Create Island");
+		$form->addbutton("» Teleport to your Island");
+		$form->addbutton("» Lock or Unlock Island");
+		$form->addbutton("» Visit an Island");
+		$form->addbutton("» Leave Island");	
+		$form->addbutton("» Delete Island");
+		$form->addbutton("» Kick Player");
+	        $form->addbutton("» Promote Player");
+		$form->addbutton("» Island Setspawn");
+		$form->addbutton("» Back to Hub"); 
 		$form->sendtoplayer($player);
 		return $form;
     }
