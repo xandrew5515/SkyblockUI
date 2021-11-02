@@ -76,7 +76,7 @@ class main extends PluginBase
 				    break;     
 
 				case 9:  
-				    $this->Getserver()->dispatchcommand($player, "Hub");
+				    $this->Getserver()->dispatchcommand($player, "hub");
 				    break;     
 
 			}
@@ -106,8 +106,8 @@ class main extends PluginBase
 		    }
 		    $this->getServer()->dispatchCommand($player, " is invite " . $data[0]);
 		});
-		$form->setTitle("Menu SkyBLock");
-		$form->addInput("Type player name to visit");
+		$form->setTitle("Visit another Island");
+		$form->addInput("» To visit another island, please insert the island founder name down below.");
 		$form->sendToPlayer($player);
 		return $form;
     }
@@ -121,8 +121,8 @@ class main extends PluginBase
 		    }
 		    $this->getServer()->dispatchCommand($player, "is fire " . $data[0]);
 		});
-		$form->settitle("Menu SkyBLock");
-		$form->addinput("type player name to kick");
+		$form->settitle("Kick a member from your island");
+		$form->addinput("» To continue, please insert the player name from your island that you want to kick dowm below.");
 		$form->sendtoplayer($player);
 		return $form;
     }
@@ -136,8 +136,8 @@ class main extends PluginBase
 		    }
 		    $this->Getserver()->dispatchcommand($player, "is Promote " . $data[0]);
 		});
-		$form->settitle("MenuSkyBLock");
-		$form->addinput("Type player name to promote");
+		$form->settitle("Promote a member from your island");
+		$form->addinput("» To continue, please insert the player name from your island that you want to kick down below.");
 		$form->sendtoplayer($player);
 		return $form;
     }
