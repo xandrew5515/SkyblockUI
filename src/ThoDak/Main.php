@@ -81,19 +81,18 @@ class main extends PluginBase
 
 			}
 		});
-		$form->settitle("Menu SKyblock");
-		$form->setcontent("This is content");
-		$form->addbutton("Create island");
-		$form->addbutton("Back to island");
-		$form->addbutton("Lock/Unlock island");
-		$form->addbutton("Visit someone island");
-		$form->addbutton("Leave island");	
-		$form->addbutton("Delete island");
-		$form->addbutton("Kick someone from your island");
-	        $form->addbutton("Promote player");
-		$form->addbutton("Setspawn island ");
-		$form->addbutton("Give your island for someone");
-		$form->addbutton("Back to hub"); 
+		$form->settitle("§bSky§1Block §eMenu");
+		$form->setcontent("§6» »eThis is the »6SkyBlock Menu. §eSelect what you want to do next down below. §6More functions cooming soon.");
+		$form->addbutton("§1» §aCreate Island §e[TAP]");
+		$form->addbutton("§1» §dTeleport to your Is §e[TAP]");
+		$form->addbutton("§1» §cLock or Unlock Is §e[TAP]");
+		$form->addbutton("§1» §2Visit an Is §e[TAP]");
+		$form->addbutton("§1» §5Leave Island §e[TAP]");	
+		$form->addbutton("§1» §4Delete Island §e[TAP]");
+		$form->addbutton("§1» §3Kick Player §e[TAP]");
+	        $form->addbutton("§1» §bPromote Player §e[TAP]");
+		$form->addbutton("§1» §6Setspawn §e[TAP]");
+		$form->addbutton("§1» §0Back to Spawn §a[TP]"); 
 		$form->sendtoplayer($player);
 		return $form;
     }
