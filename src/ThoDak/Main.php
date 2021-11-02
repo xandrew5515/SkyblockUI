@@ -21,7 +21,7 @@ class main extends PluginBase
 
 		switch($cmd->getname())
 		{
-			case "sbui":
+			case "ismenu":
 			 if($sender Instanceof player)
 			 {
 			 	$this->ui($sender);
