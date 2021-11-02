@@ -122,7 +122,7 @@ class main extends PluginBase
 		    $this->getServer()->dispatchCommand($player, "is fire " . $data[0]);
 		});
 		$form->settitle("Kick a member from your island");
-		$form->addinput("» To continue, please insert the player name from your island that you want to kick dowm below.");
+		$form->addinput("» To continue, please insert the player name from your island that you want to kick down below.");
 		$form->sendtoplayer($player);
 		return $form;
     }
